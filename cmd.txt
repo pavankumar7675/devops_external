@@ -1,0 +1,33 @@
+
+# Check Git version
+git --version
+
+# Configure username
+git config --global user.name "msd"
+
+# Configure email
+git config --global user.email "msd@gmail.com"
+
+# Create repository
+git init
+
+# Add file
+git add .
+
+# Commit changes
+git commit -m "Initial commit"
+
+# Check status
+git status
+
+# Create main branch
+git branch -M main
+
+# Add remote repository
+git remote add origin https://github.com/username/demo.git
+
+# Push to GitHub
+git push -u origin main
+
+# View commit history
+git log
